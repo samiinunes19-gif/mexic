@@ -4,6 +4,14 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "lovable-uploads/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
