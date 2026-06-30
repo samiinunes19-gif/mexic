@@ -1,0 +1,9 @@
+{
+  "name": "stripe-verification-route",
+  "version": "1.0.0",
+  "description": "Vercel deploy for Stripe verification",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
