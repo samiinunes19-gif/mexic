@@ -12,6 +12,10 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/lovable-uploads/(.*)",
+      "dest": "/lovable-uploads/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/server.js"
     }

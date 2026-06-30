@@ -2,8 +2,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Serve static assets for the e-book page
+// Serve static assets for the e-book page and React app
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/lovable-uploads', express.static(path.join(__dirname, 'lovable-uploads')));
 
 app.get('/', (req, res) => {
     const userAgent = req.headers['user-agent'] || '';
